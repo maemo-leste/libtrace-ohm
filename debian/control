@@ -6,6 +6,8 @@ Build-Depends:
  debhelper-compat (= 12),
  check,
  groff,
+ libtool,
+ libtool-bin,
 Standards-Version: 4.3.0
 
 Package: libsimple-trace
