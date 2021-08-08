@@ -5,6 +5,7 @@ Maintainer: Ivan J. <parazyd@dyne.org>
 Build-Depends:
  debhelper-compat (= 12),
  check,
+ groff,
 Standards-Version: 4.3.0
 
 Package: libsimple-trace
