@@ -1,9 +1,6 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
 AC_PREREQ(2.59)
 
-AC_INIT([libsimple-trace], 1.1.8)
+AC_INIT([libsimple-trace], 1.1.9)
 
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([src/simple-trace.c])
