@@ -1,0 +1,22 @@
+Source: libtrace
+Section: libs
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ check,
+Standards-Version: 4.3.0
+
+Package: libsimple-trace
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A simple tracing library with keyword filtering support
+ This package contains files for libsimple-trace.
+
+Package: libsimple-trace-dev
+Architecture: any
+Depends:
+ ${misc:Depends},
+ libsimple-trace (= ${binary:Version}),
+Description: libsimple-trace development headers
+ This package contains development files for libsimple-trace.
