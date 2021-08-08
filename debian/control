@@ -8,6 +8,9 @@ Build-Depends:
  groff,
  libtool,
  libtool-bin,
+ pkg-config,
+ automake,
+ autoconf
 Standards-Version: 4.3.0
 
 Package: libsimple-trace
