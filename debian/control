@@ -1,4 +1,4 @@
-Source: libtrace
+Source: libtrace-ohm
 Section: libs
 Priority: optional
 Maintainer: Ivan J. <parazyd@dyne.org>
