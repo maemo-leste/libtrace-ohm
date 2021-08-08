@@ -1,6 +1,8 @@
 EXTRA_DIST = autogen.sh build-aux/git-version-gen
 SUBDIRS    = src include doc tests
 
+ACLOCAL_AMFLAGS = -I m4
+
 pkgconfigdir   = ${libdir}/pkgconfig
 pkgconfig_DATA = src/libsimple-trace.pc
 
